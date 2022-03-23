@@ -7,6 +7,13 @@ class SearchVC: UIViewController {
     let bottomLeftImageView = UIImageView()
     let topLeftImageView = UIImageView()
     let topRightImageView = UIImageView()
+    
+    private enum SearchVCConstants {
+        static let cornerViewImage: UIImage = .add
+        static let cornerViewWidth: CGFloat = 150
+        static let cornerViewHeight: CGFloat = 150
+        static let cornerViewVertDistance: CGFloat = 100
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -59,12 +66,5 @@ class SearchVC: UIViewController {
             topRightImageView.topAnchor.constraint(equalTo: view.topAnchor, constant: SearchVCConstants.cornerViewVertDistance),
             topRightImageView.trailingAnchor.constraint(equalTo: view.trailingAnchor)
         ])
-    }
-    
-    private struct SearchVCConstants {
-        static let cornerViewImage: UIImage = .add
-        static let cornerViewWidth: CGFloat = 150
-        static let cornerViewHeight: CGFloat = 150
-        static let cornerViewVertDistance: CGFloat = 100
     }
 }

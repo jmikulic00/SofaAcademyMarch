@@ -13,7 +13,6 @@
 		4A404A1927DA46CD00D9D16C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A404A1827DA46CD00D9D16C /* Assets.xcassets */; };
 		4A404A2427DA4AA900D9D16C /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A404A2327DA4AA900D9D16C /* SearchVC.swift */; };
 		4A404A2627DA4AC300D9D16C /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A404A2527DA4AC300D9D16C /* ProfileVC.swift */; };
-		6C92C20B27E9DD0C00162811 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C92C20A27E9DD0C00162811 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		4A404A1D27DA46CD00D9D16C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A404A2327DA4AA900D9D16C /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		4A404A2527DA4AC300D9D16C /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
-		6C92C20A27E9DD0C00162811 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../../../.Trash/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +61,6 @@
 				4A404A1327DA46CB00D9D16C /* ViewController.swift */,
 				4A404A2327DA4AA900D9D16C /* SearchVC.swift */,
 				4A404A2527DA4AC300D9D16C /* ProfileVC.swift */,
-				6C92C20A27E9DD0C00162811 /* LaunchScreen.storyboard */,
 				4A404A1827DA46CD00D9D16C /* Assets.xcassets */,
 				4A404A1D27DA46CD00D9D16C /* Info.plist */,
 			);
@@ -128,7 +125,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C92C20B27E9DD0C00162811 /* LaunchScreen.storyboard in Resources */,
 				4A404A1927DA46CD00D9D16C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
